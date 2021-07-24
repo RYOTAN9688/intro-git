@@ -1,0 +1,107 @@
+0 verbose cli [
+0 verbose cli   '/home/nakao/.nvm/versions/node/v15.10.0/bin/node',
+0 verbose cli   '/home/nakao/.nvm/versions/node/v15.10.0/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--ignore-scripts',
+0 verbose cli   '@types/csso@ts4.3',
+0 verbose cli   '@types/enhanced-resolve@ts4.3',
+0 verbose cli   '@types/eslint@ts4.3',
+0 verbose cli   '@types/rsvp@ts4.3',
+0 verbose cli   '@types/sax@ts4.3',
+0 verbose cli   '--save-dev',
+0 verbose cli   '--user-agent=typesInstaller/4.3.5'
+0 verbose cli ]
+1 info using npm@7.19.1
+2 info using node@v15.10.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/home/nakao/.nvm/versions/node/v15.10.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/nakao/.cache/typescript/4.3/.npmrc Completed in 3ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/nakao/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/home/nakao/.nvm/versions/node/v15.10.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 13ms
+19 timing npm:load:configload Completed in 13ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing npm:load:setupLog Completed in 0ms
+22 timing npm:load:cleanupLog Completed in 2ms
+23 timing npm:load:configScope Completed in 0ms
+24 timing npm:load:projectScope Completed in 1ms
+25 timing npm:load Completed in 17ms
+26 timing config:load:flatten Completed in 2ms
+27 timing arborist:ctor Completed in 1ms
+28 timing idealTree:init Completed in 318ms
+29 timing arborist:ctor Completed in 0ms
+30 http fetch GET 200 https://registry.npmjs.org/@types%2fcsso 507ms (cache revalidated)
+31 http fetch GET 200 https://registry.npmjs.org/@types%2feslint 512ms (cache revalidated)
+32 http fetch GET 200 https://registry.npmjs.org/@types%2frsvp 585ms (cache revalidated)
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fsax 595ms (cache revalidated)
+34 http fetch GET 200 https://registry.npmjs.org/@types%2fenhanced-resolve 759ms (cache revalidated)
+35 timing idealTree:userRequests Completed in 804ms
+36 silly idealTree buildDeps
+37 silly fetch manifest @types/csso@4.2.0
+38 silly fetch manifest @types/enhanced-resolve@3.0.6
+39 silly fetch manifest @types/eslint@7.28.0
+40 silly fetch manifest @types/rsvp@4.0.4
+41 silly fetch manifest @types/sax@1.2.3
+42 silly placeDep ROOT @types/csso@4.2.0 REPLACE for:  want: 4.2.0
+43 silly placeDep ROOT @types/enhanced-resolve@3.0.6 KEEP for:  want: 3.0.6
+44 silly placeDep ROOT @types/eslint@7.28.0 REPLACE for:  want: 7.28.0
+45 silly placeDep ROOT @types/rsvp@4.0.4 REPLACE for:  want: 4.0.4
+46 silly placeDep ROOT @types/sax@1.2.3 REPLACE for:  want: 1.2.3
+47 timing idealTree:#root Completed in 46ms
+48 timing idealTree:node_modules/@types/csso Completed in 0ms
+49 timing idealTree:node_modules/@types/eslint Completed in 0ms
+50 timing idealTree:node_modules/@types/rsvp Completed in 0ms
+51 timing idealTree:node_modules/@types/sax Completed in 0ms
+52 timing idealTree:buildDeps Completed in 48ms
+53 timing idealTree:fixDepFlags Completed in 10ms
+54 timing idealTree Completed in 1186ms
+55 timing reify:loadTrees Completed in 1187ms
+56 timing reify:diffTrees Completed in 17ms
+57 silly reify mark retired [ '/home/nakao/.cache/typescript/4.3/node_modules/@types/csso' ]
+58 silly reify mark retired [ '/home/nakao/.cache/typescript/4.3/node_modules/@types/eslint' ]
+59 silly reify mark retired [ '/home/nakao/.cache/typescript/4.3/node_modules/@types/rsvp' ]
+60 silly reify mark retired [ '/home/nakao/.cache/typescript/4.3/node_modules/@types/sax' ]
+61 silly reify moves {
+61 silly reify   '/home/nakao/.cache/typescript/4.3/node_modules/@types/csso': '/home/nakao/.cache/typescript/4.3/node_modules/@types/.csso-fAtuu6fg',
+61 silly reify   '/home/nakao/.cache/typescript/4.3/node_modules/@types/eslint': '/home/nakao/.cache/typescript/4.3/node_modules/@types/.eslint-o3rh9PVB',
+61 silly reify   '/home/nakao/.cache/typescript/4.3/node_modules/@types/rsvp': '/home/nakao/.cache/typescript/4.3/node_modules/@types/.rsvp-nyvA1Mtm',
+61 silly reify   '/home/nakao/.cache/typescript/4.3/node_modules/@types/sax': '/home/nakao/.cache/typescript/4.3/node_modules/@types/.sax-YNyIpSLD'
+61 silly reify }
+62 timing reify:rollback:retireShallow Completed in 7ms
+63 timing command:install Completed in 1328ms
+64 verbose stack Error: EACCES: permission denied, rename '/home/nakao/.cache/typescript/4.3/node_modules/@types/eslint' -> '/home/nakao/.cache/typescript/4.3/node_modules/@types/.eslint-o3rh9PVB'
+65 verbose cwd /home/nakao/.cache/typescript/4.3
+66 verbose Linux 4.4.0-19041-Microsoft
+67 verbose argv "/home/nakao/.nvm/versions/node/v15.10.0/bin/node" "/home/nakao/.nvm/versions/node/v15.10.0/bin/npm" "install" "--ignore-scripts" "@types/csso@ts4.3" "@types/enhanced-resolve@ts4.3" "@types/eslint@ts4.3" "@types/rsvp@ts4.3" "@types/sax@ts4.3" "--save-dev" "--user-agent=typesInstaller/4.3.5"
+68 verbose node v15.10.0
+69 verbose npm  v7.19.1
+70 error code EACCES
+71 error syscall rename
+72 error path /home/nakao/.cache/typescript/4.3/node_modules/@types/eslint
+73 error dest /home/nakao/.cache/typescript/4.3/node_modules/@types/.eslint-o3rh9PVB
+74 error errno -13
+75 error Error: EACCES: permission denied, rename '/home/nakao/.cache/typescript/4.3/node_modules/@types/eslint' -> '/home/nakao/.cache/typescript/4.3/node_modules/@types/.eslint-o3rh9PVB'
+75 error  [Error: EACCES: permission denied, rename '/home/nakao/.cache/typescript/4.3/node_modules/@types/eslint' -> '/home/nakao/.cache/typescript/4.3/node_modules/@types/.eslint-o3rh9PVB'] {
+75 error   errno: -13,
+75 error   code: 'EACCES',
+75 error   syscall: 'rename',
+75 error   path: '/home/nakao/.cache/typescript/4.3/node_modules/@types/eslint',
+75 error   dest: '/home/nakao/.cache/typescript/4.3/node_modules/@types/.eslint-o3rh9PVB'
+75 error }
+76 error The operation was rejected by your operating system.
+76 error It is likely you do not have the permissions to access this file as the current user
+76 error
+76 error If you believe this might be a permissions issue, please double-check the
+76 error permissions of the file and its containing directories, or try running
+76 error the command again as root/Administrator.
+77 verbose exit -13

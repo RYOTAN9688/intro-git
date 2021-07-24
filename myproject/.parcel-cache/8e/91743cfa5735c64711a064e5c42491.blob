@@ -1,0 +1,18 @@
+var _vdomCreateElement = require("./vdom/createElement");
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _vdomCreateElementDefault = _parcelHelpers.interopDefault(_vdomCreateElement);
+var _vdomRender = require("./vdom/render");
+const INITIAL_STATE = {
+  accounts: [{
+    id: 1
+  }]
+};
+const view = _vdomCreateElementDefault.default("p", {
+  attrs: {},
+  children: ["仮想DOMの学習スタート！"]
+});
+// 仮想DOMであるviewをrender関数に渡しリアルDOMを作成
+const $app = _vdomRender.render(view);
+// src/index.htmlに書かれている<div id="app"></div>を取得
+const el = document.getElementById("app");
+el.appendChild($app);

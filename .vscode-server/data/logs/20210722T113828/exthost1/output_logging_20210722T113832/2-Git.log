@@ -1,0 +1,79 @@
+Validating found git in: git
+git から Git 2.25.1 を使用しています
+> git rev-parse --git-dir
+Open repository: /home/nakao
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :techpit/markdown-editor/src/pages/editor.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git check-ignore -v -z --stdin
+> git show --textconv :techpit/markdown-editor/src/types/worker.d.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/types/worker.d.ts
+> git show --textconv :techpit/markdown-editor/src/worker/test.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/worker/test.ts
+> git show --textconv :techpit/markdown-editor/src/pages/history.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/history.tsx
+> git show --textconv :techpit/markdown-editor/src/worker/test.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/worker/test.ts
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/techpit/markdown-editor/src/worker/test.ts
+> git show --textconv :techpit/markdown-editor/src/pages/editor.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git show --textconv :techpit/markdown-editor/package.json
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/package.json
+> git check-ignore -v -z --stdin
+> git show --textconv :techpit/markdown-editor/src/pages/editor.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git show --textconv :techpit/markdown-editor/src/worker/test.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/worker/test.ts
+> git show --textconv :techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git show --textconv :techpit/markdown-editor/src/pages/editor.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git show --textconv :techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git show --textconv :techpit/markdown-editor/src/pages/editor.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git show --textconv :techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git show --textconv :techpit/markdown-editor/src/pages/editor.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git show --textconv :techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git show --textconv :techpit/markdown-editor/src/pages/editor.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git show --textconv :techpit/markdown-editor/package.json
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/package.json
+> git show --textconv :techpit/markdown-editor/src/pages/editor.tsx
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/pages/editor.tsx
+> git show --textconv :techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/worker/convent_markdown_worker.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :techpit/markdown-editor/sw.js
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/sw.js
+> git show --textconv :techpit/markdown-editor/src/types/worker.d.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/types/worker.d.ts
+> git show --textconv :techpit/markdown-editor/sw.js
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/sw.js
+> git check-ignore -v -z --stdin
+> git show --textconv :techpit/markdown-editor/dist/index.html
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/dist/index.html
+> git show --textconv :techpit/markdown-editor/src/types/worker.d.ts
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/src/types/worker.d.ts
+> git show --textconv :techpit/markdown-editor/dist/index.html
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/dist/index.html
+> git show --textconv :techpit/markdown-editor/sw.js
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/sw.js
+> git show --textconv :techpit/markdown-editor/dist/index.html
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/dist/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/techpit/markdown-editor/dist/index.html
+> git check-ignore -v -z --stdin
+> git show --textconv :techpit/markdown-editor/dist/sw.js
+> git ls-files --stage -- /home/nakao/techpit/markdown-editor/dist/sw.js

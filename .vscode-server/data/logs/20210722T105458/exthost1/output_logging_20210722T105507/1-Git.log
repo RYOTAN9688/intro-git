@@ -1,0 +1,39 @@
+Validating found git in: git
+git から Git  を使用しています
+> git rev-parse --git-dir
+Open repository: /home/nakao/weater-app
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git check-ignore -v -z --stdin
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/weater.jsx
+> git ls-files --stage -- /home/nakao/weater-app/src/weater.jsx
+> git cat-file -s 9f754cbaa7cbe0b3e306279782a877f01ab40d71
+> git check-ignore -v -z --stdin
+> git show --textconv :.env
+> git ls-files --stage -- /home/nakao/weater-app/.env
+> git cat-file -s c107acb366bdcceec0c5ed36881a3d702709fe65
+> git show --textconv :src/weater.jsx
+> git ls-files --stage -- /home/nakao/weater-app/src/weater.jsx
+> git cat-file -s 9f754cbaa7cbe0b3e306279782a877f01ab40d71
+> git show --textconv :.env
+> git ls-files --stage -- /home/nakao/weater-app/.env
+> git cat-file -s c107acb366bdcceec0c5ed36881a3d702709fe65
+> git show --textconv :src/weater.jsx
+> git ls-files --stage -- /home/nakao/weater-app/src/weater.jsx
+> git cat-file -s 9f754cbaa7cbe0b3e306279782a877f01ab40d71
+> git show --textconv :.env
+> git ls-files --stage -- /home/nakao/weater-app/.env
+> git cat-file -s c107acb366bdcceec0c5ed36881a3d702709fe65
+> git show --textconv :src/weater.jsx
+> git ls-files --stage -- /home/nakao/weater-app/src/weater.jsx
+> git cat-file -s 9f754cbaa7cbe0b3e306279782a877f01ab40d71
+> git show --textconv :.env
+> git ls-files --stage -- /home/nakao/weater-app/.env
+> git cat-file -s c107acb366bdcceec0c5ed36881a3d702709fe65
+> git show --textconv :src/weater.jsx
+> git ls-files --stage -- /home/nakao/weater-app/src/weater.jsx
+> git cat-file -s 9f754cbaa7cbe0b3e306279782a877f01ab40d71

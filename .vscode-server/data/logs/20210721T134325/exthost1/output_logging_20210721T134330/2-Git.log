@@ -1,0 +1,14 @@
+Validating found git in: git
+git から Git 2.25.1 を使用しています
+> git rev-parse --git-dir
+Open repository: /home/nakao
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+Opening repository for path='/home/nakao/techpit' failed; ex=Canceled: Canceled
+Open repository: /home/nakao/techpit/markdown-editor

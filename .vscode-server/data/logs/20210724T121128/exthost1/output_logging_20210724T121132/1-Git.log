@@ -1,0 +1,21 @@
+Validating found git in: git
+git から Git 2.25.1 を使用しています
+> git rev-parse --git-dir
+Open repository: /home/nakao
+> git status -z -u
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/nush/client/card.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/nakao/nush/client/card.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/nush/client/card.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/nush/client/card.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/nush/client/card.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/nush/client/card.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/nush/client/public/js/payment.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nakao/nush/client/public/js/payment.js
+Opening repository for path='/home/nakao/nush' failed; ex=Canceled: Canceled
+Open repository: /home/nakao
